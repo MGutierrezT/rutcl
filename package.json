@@ -1,12 +1,17 @@
 {
   "name": "rutcl",
   "version": "1.0.0",
-  "description": "Package para validar, limpiar y dar formato al RUT",
-  "main": "./lib",
+  "description": "Package para validar, limpiar, obtener dígito verificador y dar formato al RUT",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "ava",
     "build": "tsc"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MGutierrezT/rutcl.git"
