@@ -1,6 +1,6 @@
 {
   "name": "rutcl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package para validar, limpiar, obtener dígito verificador y dar formato al RUT",
   "main": "index.js",
   "types": "index.d.ts",
