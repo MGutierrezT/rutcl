@@ -52,7 +52,6 @@ export function format(
 
 export function getDigit(rut: string) {
     rut = clean(rut);
-    rut = rut.slice(0,-1)
     // type check
     if (!rut || !rut.length) {
         return

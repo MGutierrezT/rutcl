@@ -45,7 +45,6 @@ function format(rut, options = {
 exports.format = format;
 function getDigit(rut) {
     rut = clean(rut);
-    rut = rut.slice(0, -1);
     // type check
     if (!rut || !rut.length) {
         return;
