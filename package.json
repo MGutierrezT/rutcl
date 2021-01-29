@@ -1,6 +1,6 @@
 {
   "name": "rutcl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package para validar, limpiar, obtener dígito verificador y dar formato al RUT",
   "main": "index.js",
   "types": "index.d.ts",
@@ -18,6 +18,13 @@
   },
   "keywords": [
     "validar",
+    "validate",
+    "formatear",
+    "format",
+    "limpiar",
+    "clean",
+    "digito",
+    "digit",
     "rut",
     "chile",
     "node"
